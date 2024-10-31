@@ -67,6 +67,7 @@
 - Right click in the light gray area
 - Fullscreen projector (preview)
 - USB_Monitor
+- Leave OBS and main.py open and running (close when youre done with dcs)
 - Open DCS
 - Have fun
 ![](https://drive.google.com/drive-viewer/AKGpihYR2c_Dyq7zB49zNCifDF1dblhAGBNknESqynx7UmTM_6dGckho9k5xIcAvjFFwu_Jp3hDn93qaU33MCUlI4ke7PtJZlxtBfqw=s1600-rw-v1)
