@@ -1,11 +1,9 @@
-# FOR A 2560x440p MAIN MONITOR ONLY, YOU WILL HAVE TO ADJUST NUMBERS TO MAKE IT WORK FOR OTHER SIZES
-
 # Requirements
-- HIDAPI
+- [HIDAPI](https://github.com/libusb/hidapi)
 - OBS
 - Python
 - obs-websocket-py pip module
-- https://github.com/itsmikethetech/Virtual-Display-Driver
+- [Virtual Display Driver](https://github.com/itsmikethetech/Virtual-Display-Driver)
 
 # How to set up
 
@@ -87,3 +85,5 @@
 - If any of those are different for you, copy the entire line including the b, not including the "Data received: "
 - Open main.py in a text editor
 - Paste that under TOGGLE_POSITIONS in main.py in the right spot for MFD_Right, MFD_Middle, MFD_Left, etc
+
+Any other issues, create an issue on the repository or contact me on Discord @Dylan336
