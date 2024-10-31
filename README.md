@@ -20,7 +20,7 @@
 - Next, go to display settings on windows
 - Make sure both virtual displays are set to extend desktop
 - Move them to be between your monitor and your MFD screen
-![](https://drive.google.com/drive-viewer/AKGpihY5keUR2bTT_PwknMNYjkKRmAmXDGRB-g6zmTkua3h3wffRU-aZtYVTW8WQoxR3h87t8YBx_coNRVFzkws63WgCifcZbixamPY=s2560)
+Picture of what your displays should look like https://drive.google.com/drive-viewer/AKGpihY5keUR2bTT_PwknMNYjkKRmAmXDGRB-g6zmTkua3h3wffRU-aZtYVTW8WQoxR3h87t8YBx_coNRVFzkws63WgCifcZbixamPY=s2560
 - Select the first of the 2 virtual displays
 - Scroll down to Scale & Layout, set orientation to portait and resolution to 768x1024
 - Select the second of the 2 virtual displays
@@ -70,7 +70,7 @@
 - Leave OBS and main.py open and running (close when youre done with dcs)
 - Open DCS
 - Have fun
-![](https://drive.google.com/drive-viewer/AKGpihYR2c_Dyq7zB49zNCifDF1dblhAGBNknESqynx7UmTM_6dGckho9k5xIcAvjFFwu_Jp3hDn93qaU33MCUlI4ke7PtJZlxtBfqw=s1600-rw-v1)
+Picture of the OBS part: https://drive.google.com/drive-viewer/AKGpihYR2c_Dyq7zB49zNCifDF1dblhAGBNknESqynx7UmTM_6dGckho9k5xIcAvjFFwu_Jp3hDn93qaU33MCUlI4ke7PtJZlxtBfqw=s1600-rw-v1
 
 # If your 3 way switch doesnt switch the screens
 - Run the discover-mfd-address.py file with python
