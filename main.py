@@ -10,8 +10,7 @@ OBS_PASSWORD = "password"  # Replace with your OBS WebSocket password
 # Data values associated with each toggle switch position
 TOGGLE_POSITIONS = {
     b'\x04\x00\x00\x00\x00\x00@\x00\x00\x80': 'MFD_Right',   # Top position
-    # remove the # from the line under this if you want a middle screen, youll have to figure out getting that working
-    #b'\x04\x00\x00\x00\x00\x00 \x00\x00\x80': 'MFD_Middle', # Middle position
+    b'\x04\x00\x00\x00\x00\x00 \x00\x00\x80': 'MFD_Middle', # Middle position
     b'\x04\x00\x00\x00\x00\x00\x10\x00\x00\x80': 'MFD_Left' # Bottom position
 }
 
