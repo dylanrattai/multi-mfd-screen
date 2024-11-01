@@ -1,4 +1,5 @@
 # Requirements
+
 - [HIDAPI](https://github.com/libusb/hidapi)
 - OBS
 - Python
@@ -8,11 +9,13 @@
 # How to set up
 
 **SimAppPro**
+
 - Go to Game Peripheral Display
 - Make sure your MFD screen is selected as NEITHER of the options
 - Recommended to run with close 1 split 3 mode
 
 **Virtual Displays**
+
 - Using virtual display driver
 - Follow this tutorial twice, making 2 displays https://www.youtube.com/watch?v=TQeMtr1soto&t=266s
 - Next, go to display settings on windows
@@ -25,6 +28,7 @@
 - Scroll down to Scale & Layout, set orientation to portait and resolution to 768x1024
 
 **OBS**
+
 - File > Settings > Video > Base (Canvas) Resolution to 768x1024
 - Ok
 - Tools > WebSocket Server Settings
@@ -44,6 +48,7 @@
 - In MFD_Right, create a display capture (in sources), set it to the rightmost of the 2 virtual displays you made
 
 **DCS**
+
 - Go to C:\Users\your_username\Saved Games\DCS.openbeta\Config
 - Create a folder named "MonitorSetup"
 - put the custom.lua file in the MonitorSetup folder
@@ -57,9 +62,11 @@
 - Open the DCS launcher
 - Go to settings in the launcher
 - In the monitors setting, set it to "Custom MFDs"
+- Turn off the fullscreen setting
 - Reboot DCS
 
 **When running the game**
+
 - Run main.py with python
 - Open OBS
 - Right click in the light gray area
@@ -71,11 +78,13 @@
 - Have fun
 
 # If your 3 way switch doesnt switch the screens
+
 - Run the discover-mfd-address.py file with python
 - Open main.py with a text editor and check that Vendor ID, Product ID, and Path all match, the only thing thats different between the 3 devices that will show up is the path. It shouldnt matter which path you choose.
 - To copy over things from the pop up, you will need to highlight it then do ctrl+shift+c
 
 **To verify input is correct**
+
 - Copy the path from one of the devices (ctrl+shift+c)
 - Paste it into the pop up (ctrl+shift+v)
 - Enter
