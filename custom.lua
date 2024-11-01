@@ -1,46 +1,9 @@
-displays = 
-{
-  [1] = 
-  {
-    x = 0,           -- Main Display
-    y = 0,
-    width  = 2560,
-    height = 1440
-  },
-    
-  [2] = 
-  {
-    x = 2560,       -- Winwing MFD
-    y = 0,
-    width  = 768,
-    height = 1024
-  },
-    
-  [3] = 
-  {
-    x = 3328,       -- Fake monitor 1
-    y = 0,
-    width  = 768,
-    height = 1024
-  },
-    
-  [4] = 
-  {
-    x = 4096,       -- Fake monitor 2
-    y = 0,
-    width  = 768,
-    height = 1024
-  },    
-} 
 _  = function(p) return p end
-name = _('Custom MFDs')
+name = _('Winwing 3 in 1 MFDs by Dylan')
 description = '1440p main screen with 2 fake screens to display on winwing mfd'
 
--- Screen 3 3328
-LEFT_MFCD = { x = 2560, y = 0, width = 768, height =  1024}
-
--- Screen 4
-RIGHT_MFCD = { x = 4096, y = 0, width = 768, height = 1024 }
+LEFT_MFCD = { x = 2560, y = 256, width = 768, height =  768}
+RIGHT_MFCD = { x = 3328, y = 256, width = 768, height = 768}
 
 Viewports = {
   -- Main monitor
@@ -49,7 +12,7 @@ Viewports = {
     y = 0,-- The starting VERTICAL position of the main display
     width = 2560,-- The HORIZONTAL size of the main display
     height = 1440,-- The VERTICAL size of the main display
-    aspect = width/height,-- The aspect ratio of the main display
+    aspect = 1.77777777778,-- The aspect ratio of the main display
     dx = 0,
     dy = 0
   }
