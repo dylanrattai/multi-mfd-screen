@@ -40,7 +40,7 @@ description = '1440p main screen with 2 fake screens to display on winwing mfd'
 LEFT_MFCD = { x = 2560, y = 0, width = 768, height =  1024}
 
 -- Screen 4
-RIGHT_MFCD = { x = 4096, y = 0, width = 768, height = 1024 }
+RIGHT_MFCD = { x = 4096, y = 0, width = 768, height = 1024}
 
 Viewports = {
   -- Main monitor
