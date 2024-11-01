@@ -95,4 +95,24 @@
 - Open main.py in a text editor
 - Paste that under TOGGLE_POSITIONS in main.py in the right spot for MFD_Right, MFD_Middle, MFD_Left, etc
 
+# Other troubleshooting
+
+**If you get the error "[WinError 10061] No connection could be made because the target machine actively refused it"**
+
+- Something is wrong with your OBS settings
+
+**DCS is not outputting to main monitor or virtual monitor(s)**
+
+- Verify your display settings are correct
+- Verify your options.lua file's width is the correct width. The width should be the horizontal width of your main monitor (in pixels) + 1536 (the width of the 2 virtual monitors)
+- Verify that you are using the correct custom.lua file, if there is not a custom.lua file that matches your monitor situation exactly, you will need to make your own, here is a tutorial: https://forum.dcs.world/topic/258724-how-to-multi-monitor-mfcd-display-export-set-up-guide-nov-2024-updated/
+- If you follow that tutorial, you will be modifying the custom.lua file
+- Make sure you delete the old custom.lua file from your MonitorSetup folder
+
+**If you want your monitors in other places**
+
+- Follow this tutorial to modify your custom.lua file to your liking
+- https://forum.dcs.world/topic/258724-how-to-multi-monitor-mfcd-display-export-set-up-guide-nov-2024-updated/
+- Make sure you delete the old custom.lua file from your MonitorSetup folder
+
 Any other issues, create an issue on the repository or contact me on Discord @Dylan336
